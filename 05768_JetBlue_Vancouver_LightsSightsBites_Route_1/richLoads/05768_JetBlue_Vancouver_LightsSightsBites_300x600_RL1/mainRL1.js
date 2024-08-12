@@ -106,19 +106,20 @@ function animate() {
   window.parent.document.getElementById("border").style.borderColor="#000"
 
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set(["#photo, #photo2"], { force3D:true});
+  tl.set(["#photo, #photo2"], { rotationZ: 0.1, force3D:true});
   tl.set(["#photo2"], { x:300});
 
   tl.addLabel('frame_1', 0)
 
-  .to('#photo', 4, { x:"-=60", rotation:0.01, ease:Linear.easeNone }, "frame_1")
-  .to(['#h1'], 0.5, {  autoAlpha: 1, ease: Power1.easeInOut }, "frame_1+=0.5")
+  .to('#photo', 4, { x:"-=60",  ease:"none" }, "frame_1")
+  .to(['#h1'], 0.5, { top:48, autoAlpha: 1, ease: Power1.easeInOut }, "frame_1+=1")
   .to(['#h1'], 0.5, {  autoAlpha: 0, ease: Power1.easeInOut }, "frame_1+=3.3")
 
-  tl.addLabel('frame_END', '+=4.5')
+
+  tl.addLabel('frame_END', '+=4.5')    
   tl.addLabel('frame_2', 3.5)
-  .to(['#photo, #photo2'], 1, {  x:"-=300",rotation:0.01, ease:Linear.easeNone }, "frame_2")
-  .to(['#h1b, #h2'], 0.5, {  autoAlpha: 1, ease:Linear.easeNone }, "frame2")
+  .to(['#photo, #photo2'], .5, {  x:"-=300", ease: Power1.easeInOut })
+  .to(['#h1b, #h2'], 0.5, { top:310, autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
   .to('#photo2', 5, { x:"-=60", ease:"none" }, "frame_2+=1")
     
     ////////////////////////////////////////

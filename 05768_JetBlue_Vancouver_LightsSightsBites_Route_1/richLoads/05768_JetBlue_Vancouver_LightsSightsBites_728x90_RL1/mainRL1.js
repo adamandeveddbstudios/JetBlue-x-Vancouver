@@ -113,14 +113,15 @@ function animate() {
   tl.addLabel('frame_1', 0)
 
   .to('#photo', 4, { x:"-=60",  ease:"none" }, "frame_1")
-  .to(['#h1'], 0.5, {  autoAlpha: 1, ease: Power1.easeInOut }, "frame_1+=0.5")
-  .to(['#h1'], 0.5, {  autoAlpha: 0, ease: Power1.easeInOut }, "frame_1+=3.3")    
+  .to(['#h1'], 0.5, { top:29, autoAlpha: 1, ease: Power1.easeInOut }, "frame_1+=1")
+  .to(['#h1'], 0.5, {  autoAlpha: 0, ease: Power1.easeInOut }, "frame_1+=3.3")
+
 
   tl.addLabel('frame_END', '+=4.5')    
   tl.addLabel('frame_2', 3.5)
-  .to(['#photo, #photo2'], 1, {  x:"-=728", ease: Power1.easeInOut }, "frame_2")
-  .to(['#h1b, #h2'], 0.5, {  autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
-  .to('#photo2', 6, { x:"-=60", ease:"none" }, "frame_2+=1")
+  .to(['#photo, #photo2'], .5, {  x:"-=728", ease: Power1.easeInOut })
+  .to(['#h1b, #h2'], 0.5, { top:6, autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
+  .to('#photo2', 5, { x:"-=60", ease:"none" }, "frame_2+=1")
 
 
     ////////////////////////////////////////
