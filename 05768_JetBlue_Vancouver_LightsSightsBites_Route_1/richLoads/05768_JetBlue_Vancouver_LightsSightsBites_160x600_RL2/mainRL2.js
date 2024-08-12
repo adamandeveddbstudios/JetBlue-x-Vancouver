@@ -67,11 +67,11 @@ function setupContent(feed) {
   // destination_longform = 'Providenciales, Turks and Caicos (PLS)'
 
 
-//    h4[0].innerHTML +=
-//  "<span class='sm blue'>Nonstop flights from  </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + "St. Kitts" + "</span>";
+   h4[0].innerHTML +=
+ "<span class='sm blue'>Nonstop flights from  </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + "St. Kitts" + "</span>";
     
-     h4[0].innerHTML +=
-   "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + destination_formatted + "</span>";
+  //    h4[0].innerHTML +=
+  //  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + destination_formatted + "</span>";
 
 
   if (showDefault) {
