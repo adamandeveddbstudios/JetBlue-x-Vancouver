@@ -123,7 +123,8 @@ video {
   font-size: 14px;
   line-height: 10px;
   position: relative;
-  top: -6px;
+  top: -5px;
+  left: -1px;
 }
 
 /* endframe text */

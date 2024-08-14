@@ -126,7 +126,8 @@ video {
   font-size: 15px;
   line-height: 10px;
   position: relative;
-  top: -8px;
+  top: -7px;
+  left: -2px;
 }
 /* endframe text */
 
