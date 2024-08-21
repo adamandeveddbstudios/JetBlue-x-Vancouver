@@ -117,7 +117,7 @@ video {
   height: 74px;
   left: 23px;
   top: 68px;
-/*  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);    */
+ text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.124);   
 }
 #h2{
   top: 330px;
@@ -209,8 +209,9 @@ video {
   font-size: 7px;
   letter-spacing: -0.02em;
   line-height: 8px;
-  left: 56px;
-  width: 192px;
+  left: 0px;
+  width: 300px;
+  text-align: center;
 }
 
 .terms .asterisk {
@@ -354,14 +355,14 @@ video {
 #h3{
   color: #0000aa;
   font-family: "DESKlarheitGrotesk Xbd";
-  font-size: 36px;
-  line-height: 39px;
+  font-size: 28px;
+  line-height: 34px;
   width: 260px;
   left: 23px;
   top: 108px;
 }
 #h3 .from{
-  font-size: 23.5px;
+  font-size: 21.5px;
   font-family: "ESKlarheitGrotesk Smbd";
 }
 #h3 .to{
@@ -372,7 +373,7 @@ video {
 #cta{
   width: 150px;
   left: 23px;
-  top: 326px;
+  top: 270px;
   background-color: #0000AA;
   border-radius: 7px;
   color: #fff;
