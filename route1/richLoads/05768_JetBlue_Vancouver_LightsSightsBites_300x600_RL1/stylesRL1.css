@@ -207,8 +207,9 @@ video {
   font-size: 7px;
   letter-spacing: -0.02em;
   line-height: 8px;
-  left: 24px;
-  width: 275px;
+  left: 0px;
+  width: 300px;
+  text-align: center;
 }
 
 .terms .asterisk {
