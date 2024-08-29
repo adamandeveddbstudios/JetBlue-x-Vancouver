@@ -156,6 +156,20 @@ video {
 
 }
 
+.default{
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: -0.414px;
+}
+
+.default .go-with{
+  font-family: "ESKlarheitGrotesk Smbd";
+}
+.default .jetblue{
+  font-family: "ESKlarheitGrotesk Xbd";
+  font-size: 36px;
+}
+
 #priceHolder {
   display: flex;
   flex-direction: column;
@@ -327,3 +341,9 @@ video {
 /*  z-index: 150;*/
 }
 
+#h4 .go-with{
+  font-family: "ESKlarheitGrotesk Smbd";
+}
+#h4 .jetblue{
+  font-family: "ESKlarheitGrotesk Xbd";
+}
