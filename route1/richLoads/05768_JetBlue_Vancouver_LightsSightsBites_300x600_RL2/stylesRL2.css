@@ -312,27 +312,6 @@ video {
 }
 
 
-
-
-
-
-
-
-
-/*#logoHolder {
-  width: 261px;
-  height: 61px;
-  left: 79px;
-  top: 393px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-  /* justify-content: space-between; */
-}
-
-
-
 #logo {
   width: 105.5px;
   height: auto;

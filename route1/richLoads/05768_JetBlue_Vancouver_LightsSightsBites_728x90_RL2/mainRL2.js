@@ -11,7 +11,7 @@ var tl;
 
 
 //@FT VARIABLE DECLARATIONS
-var showDefault=true,
+var showDefault=false,
     thisFeedLoaded=false,
     ctURL = "",
     defaultPrice = "69",
@@ -67,8 +67,8 @@ function setupContent() {
   // destination_longform = 'Sacramento, CA (SMF)'
 
   // // Shortest possible places
-  // origin_longform = 'Miami area'
-  // destination_longform = 'Miami area'
+  // origin_formatted = 'Miami area'
+  // destination_formatted = 'Miami area'
 
   if (showDefault) {
     h4[0].innerHTML = "<span class='default'><span class='go-width'>Go with</span> <span class='jetblue'>jetBlue</span></span>"; // - Populates main headline
@@ -81,11 +81,11 @@ function setupContent() {
     h4[0].style.color = headline_color;
     h4[0].innerHTML = ""; // - Populates main headline
 
- h4[0].innerHTML +=
- "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to</span> <span class='blue city'>" + "Vancouver" + "</span>";
+//  h4[0].innerHTML +=
+//  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to</span> <span class='blue city'>" + "Vancouver" + "</span>";
 
-  //    h4[0].innerHTML +=
-  //  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to</span><br><span class='blue city'>" + destination_formatted + "</span>";
+     h4[0].innerHTML +=
+   "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to</span><br><span class='blue city'>" + destination_formatted + "</span>";
 
 
     const myH4 = document.getElementById('h4')

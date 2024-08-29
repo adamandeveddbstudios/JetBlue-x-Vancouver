@@ -11,7 +11,7 @@ var tl;
 
 
 //@FT VARIABLE DECLARATIONS
-var showDefault=true,
+var showDefault=false,
     thisFeedLoaded=false,
     ctURL = "",
     defaultPrice = "",
@@ -62,16 +62,24 @@ function setupContent(feed) {
   // terms[0].innerHTML = terms_txt; // - Populates the 'Restrictions Apply.' text
 
 
-  // //  Longest possible places names
-  // origin_longform = 'Providenciales, Turks and Caicos (PLS)'
-  // destination_longform = 'Providenciales, Turks and Caicos (PLS)'
+  //  Longest possible places names
+  // origin_formatted = 'Providenciales, Turks and Caicos (PLS)'
+  // destination_formatted = 'Providenciales, Turks and Caicos (PLS)'
+
+  //  Median places names
+  // origin_formatted = 'Sacramento, CA (SMF)'
+  // destination_formatted = 'Sacramento, CA (SMF)'
+
+  // Shortest possible places
+  // origin_formatted = 'Miami, FL (MIA)'
+  // destination_formatted = 'Miami, FL (MIA)'
 
 
-   h4[0].innerHTML +=
- "<span class='sm blue'>Nonstop flights from  </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + "Vancouver" + "</span>";
+//    h4[0].innerHTML +=
+//  "<span class='sm blue'>Nonstop flights from  </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + "Vancouver" + "</span>";
     
-  //    h4[0].innerHTML +=
-  //  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + destination_formatted + "</span>";
+     h4[0].innerHTML +=
+   "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + destination_formatted + "</span>";
 
 
   if (showDefault) {

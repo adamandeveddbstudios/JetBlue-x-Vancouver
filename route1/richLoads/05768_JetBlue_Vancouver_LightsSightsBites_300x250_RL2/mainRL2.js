@@ -11,7 +11,7 @@ var tl;
 
 
 //@FT VARIABLE DECLARATIONS
-var showDefault=true,
+var showDefault=false,
     thisFeedLoaded=false,
     ctURL = "",
     defaultPrice = "69",
@@ -102,16 +102,16 @@ function setupContent() {
   // oneWay[0].innerHTML = oneWay_txt; // - Populates the 'one-way' text
 
   //  Longest possible places names
-  // origin_longform = 'Providenciales, Turks and Caicos (PLS)'
-  // destination_longform = 'Providenciales, Turks and Caicos (PLS)'
+  // origin_formatted = 'Providenciales, Turks and Caicos (PLS)'
+  // destination_formatted = 'Providenciales, Turks and Caicos (PLS)'
 
   //  Median places names
-  // origin_longform = 'Sacramento, CA (SMF)'
-  // destination_longform = 'Sacramento, CA (SMF)'
+  // origin_formatted = 'Sacramento, CA (SMF)'
+  // destination_formatted = 'Sacramento, CA (SMF)'
 
   // Shortest possible places
-  // origin_longform = 'Miami, FL (MIA)'
-  // destination_longform = 'Miami, FL (MIA)'
+  // origin_formatted = 'Miami, FL (MIA)'
+  // destination_formatted = 'Miami, FL (MIA)'
 
 
 
@@ -128,11 +128,11 @@ function setupContent() {
     h4[0].innerHTML = "<span class='hidden'></span>"; // - Populates main headline
 
 
-       h4[0].innerHTML +=
- "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to</span> <span class='blue city'>" + "Vancouver" + "</span>";
+//        h4[0].innerHTML +=
+//  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + "NYC" + "</span> <span class='blue to'>to</span> <span class='blue city'>" + "Vancouver" + "</span>";
 
-  //        h4[0].innerHTML +=
-  //  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to</span> <span class='blue city'>" + destination_formatted + "</span>";
+         h4[0].innerHTML +=
+   "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to</span> <span class='blue city'>" + destination_formatted + "</span>";
 
 
     // dynamic resize
