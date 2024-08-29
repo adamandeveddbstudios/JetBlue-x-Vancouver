@@ -78,6 +78,7 @@ h4[0].innerHTML +=
     price[0].style.display = 'none';
     startingAt[0].style.display = 'none';
     terms1[0].style.display = 'true';
+    terms1[0].classList.add('default_term');
     terms2[0].style.display = 'none';
 
   }

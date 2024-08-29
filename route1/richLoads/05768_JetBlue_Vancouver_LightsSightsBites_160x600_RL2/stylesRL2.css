@@ -286,11 +286,14 @@ video {
   position: relative;
   left: -32px;
 }
-
 #terms1 {
   left: 0px;
   top: 570px;
   width: 160px;
+}
+.default_term .all-right{
+  left: 0px!important;
+  text-align: center;
 }
 
 #terms2 {

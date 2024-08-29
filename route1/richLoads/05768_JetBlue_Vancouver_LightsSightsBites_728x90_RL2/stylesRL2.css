@@ -145,7 +145,19 @@ video {
   position: relative;
   margin-bottom: 0px;
 }
-
+.default{
+  color: #0000aa;
+  font-size: 26px;
+  line-height: 28px;
+  position: relative;
+  top: 3px;
+}
+.default .go-with{
+  font-family: "ESKlarheitGrotesk Smbd";
+}
+.default .jetblue{
+  font-family: "ESKlarheitGrotesk Xbd"; 
+}
 #priceHolder {
   display: flex;
   flex-direction: column;

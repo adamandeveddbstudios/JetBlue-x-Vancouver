@@ -273,18 +273,15 @@ video {
   width: 300px;
 }
 
-
+.default_term{
+  text-align: center;
+  left: 0px!important;
+}
 #terms2 {
   left: 212px;
   top: 580px;
   width: 300px;
 }
-
-
-
-
-
-
 #bgPanel {
   top: 0px;
 /*  z-index: 150;*/

@@ -71,7 +71,7 @@ function setupContent() {
   // destination_longform = 'Miami area'
 
   if (showDefault) {
-    h4[0].innerHTML = "<span class='blue'>Fly with a sky-high experience<br />at down-to-earth fares.</span>"; // - Populates main headline
+    h4[0].innerHTML = "<span class='default'><span class='go-width'>Go with</span> <span class='jetblue'>jetBlue</span></span>"; // - Populates main headline
     price[0].style.display = 'none';
     startingAt[0].style.display = 'none';
     terms1[0].style.display = 'true';
