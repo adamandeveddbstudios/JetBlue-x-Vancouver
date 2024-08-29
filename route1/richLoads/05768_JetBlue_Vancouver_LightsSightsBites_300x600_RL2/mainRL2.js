@@ -74,7 +74,7 @@ h4[0].innerHTML +=
   //  "<span class='sm blue'>Nonstop flights from </span><br><span class='blue city'>" + origin_formatted + "</span> <span class='blue to'>to<br></span> <span class='blue city'>" + destination_formatted + "</span>";
 
   if (showDefault) {
-    h4[0].innerHTML = "<span class='blue'>Fly with a sky-high experience at<br/>down-to-earth fares.</span>"; // - Populates main headline
+    h4[0].innerHTML = "<span class='default'><span class='go-width'>Go with</span> <span class='jetblue'>jetBlue</span></span>"; // - Populates main headline
     price[0].style.display = 'none';
     startingAt[0].style.display = 'none';
     terms1[0].style.display = 'true';
