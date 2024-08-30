@@ -5,7 +5,7 @@ FT.manifest({
     "clickTagCount": 1,
     "hideBrowsers": ["ie8"],
     "richloads": [
- 		{"name":"main_rl", "src":"JB_Retail_24_Europe_NonDynamic_300x250_RL1"}
+ 		{"name":"main_rl", "src":"JetBlue_DisplayBanners_Vancouver_V1_NonDynamic_COOP_HTML5_300x250_RL1"}
  	],
     "instantAds": [
         {"name":"main_rl",          "type":"richload"}, 

@@ -1,12 +1,12 @@
 FT.manifest({
 	"filename": "index.html",
-	"width": 728,
-	"height": 90,
+	"width": 160,
+	"height": 600,
 	"clickTagCount": 3,
 	"hideBrowsers": ["ie8"],
 	"richLoads": [
-		{"name": "RL1", "src": "05768_JetBlue_Vancouver_LightsSightsBites_728x90_RL1"},
-		{"name": "RL2", "src": "05768_JetBlue_Vancouver_LightsSightsBites_728x90_RL2"}
+		{"name": "RL1", "src": "JetBlue_DisplayBanners_Vancouver_V1_Dynamic_COOP_HTML5_160x600_RL1"},
+		{"name": "RL2", "src": "JetBlue_DisplayBanners_Vancouver_V1_Dynamic_COOP_HTML5_160x600_RL2"}
 	],
     "instantAds": [
 		{"name": "RL1", 						"type": "richLoad"},
@@ -25,10 +25,10 @@ FT.manifest({
 		{"name": "CTA_text_color",				"type": "text", 			"default": "#00205B"},
 		{"name": "headline1_text",				"type": "text",				"default": "Fly with JetBlue<br>"},
 		{"name": "headline2_text",				"type": "text",				"default": ""},
-		{"name": "one_way_text",					"type": "text",			"default": "one<br>way<sup class='asterisk'>&ast;&ast;</sup>"},
+		{"name": "one_way_text",					"type": "text",			"default": "one<br/>way<sup class='asterisk'>&ast;&ast;</sup>"},
 		{"name": "seeDetails_button_text",			"type": "text",			"default": ""},
 		{"name": "seeDetails_body_text",			"type": "text",			"default": ""},
-		{"name": "restrictions_text",				"type": "text",			"default": ""},
+		{"name": "restrictions_text",				"type": "text",			"default": "<span class='asterisk'>&ast;</span>Restrictions apply, base fare only."},
 		{"name": "Retail_dynamic_clickTag_URL",		"type": "text",			"default": "http://www.jetblue.com"},
 		{"name": "Retail_default_clickTag_URL",		"type": "text",			"default": "http://www.jetblue.com"},
 		{"name": "PSA_dynamic_clickTag_URL",		"type": "text",			"default": "http://www.avis.com"}

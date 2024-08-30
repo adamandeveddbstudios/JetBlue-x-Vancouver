@@ -5,8 +5,8 @@ FT.manifest({
 	"clickTagCount": 3,
 	"hideBrowsers": ["ie8"],
 	"richLoads": [
-		{"name": "RL1", "src": "05768_JetBlue_Vancouver_LightsSightsBites_300x250_RL1"},
-		{"name": "RL2", "src": "05768_JetBlue_Vancouver_LightsSightsBites_300x250_RL2"}
+		{"name": "RL1", "src": "JetBlue_DisplayBanners_Vancouver_V1_Dynamic_COOP_HTML5_300x250_RL1"},
+		{"name": "RL2", "src": "JetBlue_DisplayBanners_Vancouver_V1_Dynamic_COOP_HTML5_300x250_RL2"}
 	],
     "instantAds": [
 		{"name": "RL1", 						"type": "richLoad"},
