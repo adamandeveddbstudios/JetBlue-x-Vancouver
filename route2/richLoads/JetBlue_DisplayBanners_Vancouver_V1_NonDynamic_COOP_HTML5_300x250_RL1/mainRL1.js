@@ -20,7 +20,8 @@ myFT.on('instantads',function(){
 
 init()
 function animate() {
-
+  //make parent (base file) border black
+  // window.parent.document.getElementById("border").style.borderColor="#000"
 
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl.set(["#photo, #photo2"], { rotationZ: 0.1, force3D:true});
@@ -37,39 +38,9 @@ function animate() {
   tl.addLabel('frame_2', 3.5)
   .to(['#photo, #photo2'], .5, {  x:"-=300", ease: Power1.easeInOut })
   .to(['#h1b, #h2'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
-  .to('#photo2', 5, { x:"-=89", ease:"none" }, "frame_2+=1")
-  // .to(['#terms2'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, ">")
-  // .to('#endframeBg', 0.6 ,{ top: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
-  // .to('#bottomPanel',{autoAlpha:0}, 'frame_END-=.5')
-  // .to('#bottomPanel2',{autoAlpha:1}, '>')
-  // .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeOut}, 'frame_END+=0.5')
-  // .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeOut}, 'frame_END+=1')
-  // .to('#terms1', 0.5, {color:'#fff', ease: Power1.easeOut}, 'frame_END-=0.5')
-  // .to('#terms2', 0.5, { autoAlpha: 0, ease: Power1.easeOut}, 'frame_END-=0.5')
-
-  // tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  // tl.set(["#photo, #photo2"], { rotationZ: 0.1, force3D:true});
-  // tl.set(["#photo2"], { x:300});
-
-  // tl.addLabel('frame_1', 0)
-  // .to('#photo', 4, { x:"-=60",  ease:"none" }, "frame_1")
-  // .to(['#h1'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, "frame_1+=1")
-  // .to(['#h1'], 0.5, {  autoAlpha: 0, ease: Power1.easeInOut }, "frame_1+=3.3")
+  .to('#photo2', 5, { x:"-=60", ease:"none" }, "frame_2+=1")
 
 
-  // tl.addLabel('frame_END', '+=4.5')    
-  // tl.addLabel('frame_2', 3.5)
-  // .to(['#photo, #photo2'], .5, {  x:"-=300", ease: Power1.easeInOut })
-  // .to(['#h1b, #h2'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
-  // .to('#photo2', 5, { x:"-=60", ease:"none" }, "frame_2+=1")
-  // .to(['#terms2'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, ">")
-  // .to('#endframeBg', 0.6 ,{ top: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
-  // .to('#bottomPanel',{autoAlpha:0}, 'frame_END-=.5')
-  // .to('#bottomPanel2',{autoAlpha:1}, '>')
-  // .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeOut}, 'frame_END+=0.5')
-  // .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeOut}, 'frame_END+=1')
-  // .to('#terms1', 0.5, {color:'#fff', ease: Power1.easeOut}, 'frame_END-=0.5')
-  // .to('#terms2', 0.5, { autoAlpha: 0, ease: Power1.easeOut}, 'frame_END-=0.5')
 }
 
 function setRollover() {
