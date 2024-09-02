@@ -38,6 +38,14 @@ function animate() {
   .to(['#photo, #photo2'], .5, {  x:"-=300", ease: Power1.easeInOut })
   .to(['#h1b, #h2'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
   .to('#photo2', 5, { x:"-=60", ease:"none" }, "frame_2+=1")
+  .to(['#terms2'], 0.5, { top:12, autoAlpha: 1, ease: Power1.easeInOut }, ">")
+  .to('#endframeBg', 0.6 ,{ top: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
+  .to('#bottomPanel',{autoAlpha:0}, 'frame_END-=.5')
+  .to('#bottomPanel2',{autoAlpha:1}, '>')
+  .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeOut}, 'frame_END+=0.5')
+  .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeOut}, 'frame_END+=1')
+  .to('#terms1', 0.5, {color:'#fff', ease: Power1.easeOut}, 'frame_END-=0.5')
+  .to('#terms2', 0.5, { autoAlpha: 0, ease: Power1.easeOut}, 'frame_END-=0.5')
 
   // tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
   // tl.set(["#photo, #photo2"], { rotationZ: 0.1, force3D:true});
