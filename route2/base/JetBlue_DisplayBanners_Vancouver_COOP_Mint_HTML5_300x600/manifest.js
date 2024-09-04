@@ -1,11 +1,11 @@
 FT.manifest({
     "filename": "index.html",
-    "width": 160,
+    "width": 300,
     "height": 600,
     "clickTagCount": 1,
     "hideBrowsers": ["ie8"],
     "richloads": [
- 		{"name":"main_rl", "src":"JetBlue_DisplayBanners_Vancouver_V2_NonDynamic_COOP_HTML5_160x600_RL1"}
+ 		{"name":"main_rl", "src":"JetBlue_DisplayBanners_Vancouver_COOP_Mint_HTML5_300x600_RL1"}
  	],
     "instantAds": [
         {"name":"main_rl",          "type":"richload"}, 
